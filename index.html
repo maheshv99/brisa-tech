@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images//images.png" type="image/x-icon">
+
+    <title>MOM</title>
+</head>
+<body>
+    <h1>Generating Minutes of Meeting</h1>
+    
+    <div class="container">
+        <div class="sub-container">
+            <div class="left-side-box">
+                <span class="heading">Daily Scrum Meeting</span>
+                <img src="./images//zoom-logo-transparent-6-removebg-preview.png" alt="img" width="70px">
+
+                <p>Date: 20/03/2023</p>
+                <p>Daily Stand up for Aled team working on PRD 1Project</p>
+                <hr/>
+                <br>
+
+                <span>Owner  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                <span>Watcher &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> 
+                <span> Participants</span><br>
+                <span class="owner-img"><img src="./images//icons8-user-30.png" alt="img"></span> &nbsp;&nbsp;&nbsp;
+                <span class="line">|</span>
+
+                <span class="watcher1"></span>
+                <span class="watcher2"></span>
+                <span class="watcher3">+3</span>
+
+                <span class="line">|</span>
+
+                <span class="owner-img"><img src="./images//icons8-user-30.png" alt="img"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="watcher1"></span>
+                <span class="watcher2"></span>
+                <span class="watcher4"></span>
+                <span class="watcher3">+12</span>
+                 <br><br>
+                <hr/>
+                 <p>Meeting Hour</p>
+                 <p>4 hr 40 minutes</p>
+
+            </div>
+            <div class="right-side-box">
+
+                <span class="rhs-header">
+                <span class="item">Agenda</span>
+                <span class="item">Tasks</span>
+                <span class="item box">Detailed View</span>
+                </span>
+
+                <hr>
+
+                <p class="agenda">UX/UI Decision Making</p>
+                <p class="agenda"> UX/UI Products Edit</p>
+                
+                <p class="notes">Notes</p>
+
+                <ul>
+                    <li>Decision Point 1, Points-add actions here</li>
+                    <li> Insight, Points- add actions here</li>
+                    <li> Discussion, Points- add actions here</li>
+                </ul>
+
+                <p>Resources <span class="dwn-link">(Download links)</span> </p>
+               <span class="download-link">Sales.pptx  <img src="./images//download (1).png" alt="" width="22px"> </span>
+               <span class="download-link">Sales.pptx <img src="./images//download (1).png" alt="" width="22px"></span>
+            </div>
+            <div class="bellow">
+                <span>Create Follow up Meeting</span>
+                <span>Follow up Meeting</span>
+                <span><input type="date" name="" id=""></span>
+            </div>
+        </div>
+        <div class="last">
+            <div>
+                 <span class="feed">Meeting Feedback</span> <br><br>
+                <img src="./images//star-icon-svg-11-removebg-preview.png" width="25px" alt="">
+                <img src="./images//star-icon-svg-11-removebg-preview.png" width="25px" alt="">
+                <img src="./images//star-icon-svg-11-removebg-preview.png" width="25px" alt="">
+                <img src="./images//star-icon-svg-11-removebg-preview.png" width="25px" alt="">
+                <img src="./images//images-removebg-preview (1).png" width="25px" alt="">
+            </div>
+            <div>
+                <textarea rows="5" cols="50" placeholder="leave comment..."></textarea>
+            </div>
+            <div class="checks">
+                <label>
+                    <input type="checkbox" name="agree" onchange="func('two')" id="one">I agree to the Meetings Minutes
+                </label>
+                 <br>
+                 <label>
+                    <input type="checkbox" name="agree" checked  onchange="func('one')" id="two">I Don't Agree to the Meetings Minutes 
+                 </label>
+               <br><br>
+                <button onclick="close11()">close</button>
+                <button class="sub" onclick="submitresponce()">submit</button>
+
+            </div>
+        </div>
+        <div>
+            
+        </div>
+   
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
